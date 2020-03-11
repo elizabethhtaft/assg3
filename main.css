@@ -28,6 +28,8 @@ body {
 .nav {
   list-style-type: none;
   position:absolute;
+  margin-top:-40px;
+  right:20em;
   padding: 0;
   overflow: hidden;
   text-align: center;
