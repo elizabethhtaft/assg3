@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  position:absolute;
+  position:relative;
 }
 
 .header img {
@@ -25,9 +25,9 @@ body {
   margin-right:auto;
 }
 
-#nav {
+.nav {
   list-style-type: none;
-  position:relative;
+  position:absolute;
   padding: 0;
   overflow: hidden;
   text-align: center;
@@ -36,11 +36,11 @@ body {
   background-color: #0d0d0d;
 }
 
-#nav li {
+.nav li {
   display: inline;
 }
 
-#nav a {
+.nav a {
   display: inline-block;
   padding: 10px;
   text-decoration: none;
@@ -49,7 +49,7 @@ body {
   background-color: #0d0d0d;
 }
 
-#nav li a:hover {
+.nav li a:hover {
   background-color: #2e2e2e;
 }
 
