@@ -19,3 +19,21 @@ h1 { /*website title*/
   font-weight: bold;
   background-color: #808080;
 }
+
+#nav li {
+  display: inline;
+}
+
+#nav a {
+  display: inline-block;
+  padding: 16px;
+  text-decoration: none;
+  list-style:none;
+  text-transform:uppercase;
+  color: #e6e6e6;
+  background-color: #808080;
+}
+
+#nav li a:hover {
+  background-color: #9e9e9e;
+}
