@@ -7,7 +7,9 @@ h1 { /*website title*/
   text-align:center;
   font-size:300%;
   margin:5% 0% 3% 0%;
-  font-family: serif;
+  font-family: fantasy;
+  text-decorate: none;
+  color: #f5f5f5;
 }
 
 #nav {
