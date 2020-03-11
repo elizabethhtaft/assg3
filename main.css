@@ -3,9 +3,9 @@ body {
   color: #c4c4c4;
 }
   
-h1 {
-    text-align: center;
-    font-size: 5em;
+.header img {
+    max-width: 10em;
+    width:auto;
 }
 
 #title a { /*website title*/
