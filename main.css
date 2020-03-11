@@ -16,6 +16,9 @@ body {
 
 .header {
   position:relative;
+  background-color:#630000;
+  padding-top:1em;
+  padding-bottom:1em;
 }
 
 .header img {
