@@ -2,6 +2,15 @@ body {
   background-color: #141414;
   color: #c4c4c4;
 }
+
+#footer {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 10px;
+  width:auto;
+  position:fixed;
+  bottom:0;
+}
   
 .header img {
     max-width: 10em;
