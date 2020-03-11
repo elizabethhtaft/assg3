@@ -28,15 +28,12 @@ body {
 #nav {
   list-style-type: none;
   position:relative;
-  bottom:10px;
-  left:10px;
   padding: 0;
   overflow: hidden;
   text-align: center;
   font-family: 'Garamond', serif;
   font-size:18px;
   background-color: #0d0d0d;
-  z-index:-1;
 }
 
 #nav li {
