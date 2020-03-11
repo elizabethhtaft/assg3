@@ -35,7 +35,7 @@ body {
   overflow: hidden;
   text-align: center;
   font-family: 'Garamond', serif;
-  font-size:14px;
+  font-size:18px;
   background-color: #0d0d0d;
 }
 
@@ -111,6 +111,11 @@ body {
   text-align: center;
   font-family:'Garamond', serif;
   background-color: rgba(0,0,0,0.8);
+}
+
+.text a {
+  text-decoration:none;
+  color: #f2f2f2;
 }
 
 /* The dots/bullets/indicators */
