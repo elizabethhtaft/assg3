@@ -29,16 +29,20 @@ body {
 }
 
 .nav {
-  list-style-type: none;
+  /*POSITION*/
   position:absolute;
   margin-top:-40px;
-  right:20em;
+  right:24em;
   padding: 0;
+  /*LIST*/
+  list-style-type: none;
   overflow: hidden;
+  background-color: #0d0d0d;
+  /*FONT*/
   text-align: center;
   font-family: 'Garamond', serif;
   font-size:18px;
-  background-color: #0d0d0d;
+  font-weight: bold;
 }
 
 .nav li {
