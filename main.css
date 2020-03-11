@@ -57,7 +57,7 @@ h1 {
   margin: auto;
 }
 
-/* Hide the images by default*/
+/* Hide the images by default */
 .mySlides {
   display: none;
 }
@@ -92,14 +92,14 @@ h1 {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  background-color: rgba(0,0,0,0.8);
   font-size: 35px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 4px;
+  bottom: 8px;
   width: 100%;
   text-align: center;
   font-family:'Garamond', serif;
+  background-color: rgba(0,0,0,0.8);
 }
 
 /* The dots/bullets/indicators */
@@ -121,9 +121,9 @@ h1 {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
