@@ -52,10 +52,10 @@ h1 { /*website title*/
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Hide the images by default
 .mySlides {
   display: none;
-}
+}*/
 
 /* Next & previous buttons */
 .prev, .next {
