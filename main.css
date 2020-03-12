@@ -157,5 +157,6 @@ body {
     width:100%;
   }
   
-  .nav 
+  .nav li {
+    display:list-item;
 }
