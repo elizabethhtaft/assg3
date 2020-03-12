@@ -164,10 +164,8 @@ body {
 }
 
 @media screen and (max-width: 600px) {
- /* .header img {
-    width:100%;
-  }*/
   
   .nav li {
     display:list-item;
+  }
 }
