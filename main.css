@@ -51,12 +51,18 @@ body {
 /*POEM*/
 .poem {
   margin: 1em 2em 1em 2em;
+  line-height:1;
 }
 
 #author {
   text-transform:uppercase;
   font-family:'Helvetica', sans-serif;
   font-size: 80%;
+  margin-bottom:120%;
+}
+
+#text {
+  font-size:120%;
 }
 
 /*SLIDESHOW*/
