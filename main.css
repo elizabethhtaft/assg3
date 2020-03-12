@@ -5,10 +5,9 @@ body {
 }
 
 .header {
-  position:relative;
   background-color:#630000;
   padding-top:1em;
-  padding-bottom:1em;
+  padding-bottom:0.1em;
 }
 
 .header img {
@@ -20,9 +19,6 @@ body {
 }
 
 .nav {
-  /*POSITION*/
-  position:block;
-  right:2em;
   /*LIST*/
   list-style-type: none;
   overflow: hidden;
