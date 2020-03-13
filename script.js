@@ -30,7 +30,13 @@ function showSlides(n) {
 
 /*DEFINITION POPUPS*/
 // When the user clicks on <div>, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
+//function myFunction() {
+//  var popup = document.getElementById("myPopup");
+//  popup.classList.toggle("show");
+//}
+
+// When the user clicks on div, open the popup
+function myFunction(elem) {
+    var popup = document.getElementById("myPopup");
+    elem.children[0].classList.toggle("show");
 }
