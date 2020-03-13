@@ -1,3 +1,4 @@
+/*SLIDESHOW*/
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +27,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+
+/*DEFINITION POPUPS*/
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
