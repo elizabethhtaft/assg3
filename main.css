@@ -64,7 +64,10 @@ img {
 .gallery {
   grid-column:1 / 2;
   grid-row: 1;
-  
+}
+
+.gallery img {
+  padding-top:2%;
 }
 
 .poem {
