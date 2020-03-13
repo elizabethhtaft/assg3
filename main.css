@@ -93,6 +93,7 @@ body {
   visibility: hidden;
   width: 160px;
   font-family: 'Helvetica', sans-serif;
+  font-size:60%;
   background-color: #555;
   color: #fff;
   text-align: center;
