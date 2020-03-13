@@ -52,6 +52,8 @@ body {
 .poem {
   margin: 1em 2em 1em 2em;
   line-height:1;
+  display:grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 #author {
