@@ -64,10 +64,11 @@ img {
 .gallery {
   grid-column:1 / 2;
   grid-row: 1;
+  padding-left:5%;
 }
 
 .gallery img {
-  padding-top:2%;
+  padding-top:5%;
 }
 
 .poem {
@@ -257,8 +258,12 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  
   .nav li {
     display:list-item;
+  }
+  
+  * {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
   }
 }
