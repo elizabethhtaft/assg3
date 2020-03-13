@@ -54,6 +54,13 @@ body {
   line-height:1;
   display:grid;
   grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#title {
+  grid-column: 1 / 2;
+  grid-row: 1;
 }
 
 #author {
@@ -67,6 +74,8 @@ body {
   font-size:120%;
   line-height:1.5;
   font-size:132%;
+  grid-column:1 / 2;
+  grid-row:2;
 }
 
 /*SLIDESHOW*/
