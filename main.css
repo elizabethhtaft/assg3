@@ -53,13 +53,13 @@ body {
   margin: 1em 2em 1em 2em;
   line-height:1;
   display:grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 3fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 
 #title {
-  grid-column: 1 / 2;
+  grid-column: 2 / 3;
   grid-row: 1;
 }
 
@@ -74,7 +74,7 @@ body {
   font-size:120%;
   line-height:1.5;
   font-size:132%;
-  grid-column:1 / 2;
+  grid-column:2 / 3;
   grid-row:2;
 }
 
