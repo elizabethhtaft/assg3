@@ -84,6 +84,8 @@ body {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  color:white;
+  text-decoration:underline;
 }
 
 /* The actual popup (appears on top) */
