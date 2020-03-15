@@ -51,6 +51,26 @@ img {
   color: white;
 }
 
+/*CREDITS*/
+.credits {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10%;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 1em 2em 1em 2em;
+}
+
+.col1 {
+  grid-column: 1 / 2;
+  grid-row:1;
+}
+
+.col2 {
+  grid-column: 2 / 3;
+  grid-row:2;
+}
+  
+
 /*POEM*/
 .content {
   display:grid;
@@ -267,6 +287,11 @@ img {
     margin: 0 0 0 0;
   }
 
+  .credits {
+    grid-template-columns:1fr;
+    grid-gap:0;
+  }
+    
   .content {
     grid-template-columns:1fr;
     grid-gap:0;
