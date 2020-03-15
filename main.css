@@ -60,6 +60,10 @@ img {
   margin: 1em 2em 1em 2em;
 }
 
+.credits h1 {
+  grid-column: 1 / span 2;
+}
+
 .col1 {
   grid-column: 1 / 2;
   grid-row:1;
