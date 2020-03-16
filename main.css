@@ -55,7 +55,7 @@ img {
 .credits {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10%;
+  grid-gap: 5%;
   grid-auto-rows: minmax(100px, auto);
   margin: 1em 4em 1em 4em;
 }
@@ -286,7 +286,9 @@ img {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+  
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
   .nav li {
     display:list-item;
   }
